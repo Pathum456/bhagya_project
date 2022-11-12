@@ -1,0 +1,229 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'popins', 'sans-serif';
+	
+	
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+*{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Home Section CSS  */
+
+#homeSection{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+}
+#bgImageDiv{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: red;
+}
+#imageHome{
+	position:absolute;
+	width:100%;
+	height: 100%;
+	background-size: 100% 100%;
+}
+#desciptionDiv{
+	position:absolute;
+	z-index: 10;
+	width:40%;
+	height:40%;
+	top: 25%;
+	left: 8%;
+}
+.topic1{
+	font-size: 40px;
+	
+}
+.des1{
+	margin-top: 8%;
+	margin-left: -10%;
+	line-height: 140% ;
+}
+.btn{
+	width: 20%;
+	height: 15%;
+	border-radius: 25px !important;
+	margin-top: 4%;
+	margin-left: 2%;
+	font-size: 16.5px;
+}
+#btnAbout{
+	background-color: #b85b14;
+}
+#btnAbout:hover{
+	background-color: #dce310;
+}
+#btnContact{
+	background-color: #b85b14;
+}
+#btnContact:hover{
+	background-color: #dce310;
+}
+
+/* About Section CSS  */
+
+#aboutSection{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	/* background: #f0f2f5; */
+}
+#abpoutBgImage{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+	opacity: 0.8;
+	
+}
+#aboutImgDiv{
+	position: absolute;
+	top:25%;
+	right:0;
+	width:30%;
+	height: 60%;
+	
+}
+#aboutimage{
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+}
+.title{
+	position: absolute;
+	width: 25%;
+	height: 5%;
+	margin: auto;
+	top:5%;
+	left: 10%;
+	right: 0;
+	font-size: 38px;
+}
+#aboutDesciption{
+	position: absolute;
+	width: 60%;
+	height: 60%;
+	top: 25%;
+	left: 25%;
+}
+#des2{
+	position: absolute;
+	width: 50%;
+	height:10%;
+	margin: auto;
+	left: 0;
+	top: 0;
+	right: 0;
+	font-size: 25px;
+	
+	
+}
+#des3{
+	position: absolute;
+	width: 43%;
+	height:10%;
+	margin: auto;
+	left: 0;
+	top: 8%;
+	right: 0;
+	font-size: 25px;
+	
+}
+.des4{
+	position: absolute;
+	width:60%;
+	height:10%;
+	top:20%;
+	line-height: 170% ;
+	left: 13%;
+	font-size: 20px;
+	
+	 color: white; 
+}
+
+/*chanal Section CSS  */
+
+#chanelSection{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	background-color: #7395AE;
+}
+
+
+
+#dataform{
+	position: absolute;
+	width: 55%;
+	height: 70%;
+	margin: auto;
+	left:0;
+	right: 0;
+	top: 15%;
+	border: 2px solid white;
+	padding-top: 3%;
+}
+.data{
+	position: absolute;
+	width: 60%;
+	font-size: 18px;	
+	border-radius: 25px ;
+	border: 2px solid #095179;
+	margin: auto;
+	left:0;
+	right: 0;
+	
+	
+	
+}
+#reason{
+	position: absolute;
+	width: 60%;
+	font-size: 18px;	
+	border-radius: 10px ;
+	border: 2px solid #095179;
+}
+#doctors{
+	position: absolute;
+	width: 60%;
+	font-size: 18px;	
+	border-radius: 10px ;
+	border: 2px solid #095179;
+}
+#submitBtn{
+	position: absolute;
+	width:20%;
+	height:10%;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom:5%;
+	background-color:  #dce310;
+}
+#submitBtn:hover{
+	background-color: #b85b14;
+}
+
+/* contact Section CSS */
+#contactSection{
+	position: relative;
+	width: 100vw;
+	height: 30vh;
+	background-color: #095179;
+}
+
+
+
+
+
