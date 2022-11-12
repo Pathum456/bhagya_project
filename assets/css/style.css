@@ -6,6 +6,9 @@
 	
 	
 }
+body{
+	position: relative;
+}
 *::-webkit-scrollbar {
   display: none;
 }
@@ -221,9 +224,23 @@
 	width: 100vw;
 	height: 30vh;
 	background-color: #095179;
+	overflow: hidden;
 }
-
-
+#info{
+	position:absolute;
+	width: 50%;
+	height: 80%;
+	margin:auto;
+	top: 28%;
+	left: 10%;
+	right: 0;
+	color: white;
+	
+	
+}
+.l1{
+	font-size: 24px;
+}
 
 
 
